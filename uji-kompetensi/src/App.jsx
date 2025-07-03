@@ -69,9 +69,9 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center py-10">
+    <div className="min-h-screen bg-emerald-50 flex flex-col items-center py-10">
       {/* Heading To Do List */}
-      <h1 className="text-3xl font-bold mb-6 text-blue-700">To-Do List</h1>
+      <h1 className="text-3xl font-bold mb-6 text-emerald-700">To-Do List</h1>
       {/* Form input tugas baru */}
       <form onSubmit={handleSubmit} className="flex gap-2 mb-6 w-full max-w-md">
         <input
@@ -79,11 +79,11 @@ function App() {
           placeholder="Tambah tugas baru..."
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          className="flex-1 px-4 py-2 border bg-white border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+          className="flex-1 px-4 py-2 border bg-white border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-400"
         />
         <button
           type="submit"
-          className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition"
+          className="px-4 py-2 bg-emerald-600 text-white rounded-md hover:bg-emerald-700 transition"
         >
           Tambah
         </button>
@@ -151,7 +151,7 @@ function App() {
                 type="text"
                 value={editValue}
                 onChange={(e) => setEditValue(e.target.value)}
-                className="px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
+                className="px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-emerald-400"
                 autoFocus
               />
               <div className="flex justify-end gap-2">
@@ -164,7 +164,7 @@ function App() {
                 </button>
                 <button
                   type="submit"
-                  className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+                  className="px-4 py-2 bg-emerald-600 text-white rounded hover:bg-emerald-700"
                 >
                   Simpan
                 </button>
