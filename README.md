@@ -17,12 +17,11 @@ uji-kompetensi/
 ├── public/
 │   └── ...
 ├── src/
-│   ├── App.jsx
-│   ├── App.css (jika ada)
-│   ├── index.js
+│   ├── App.jsx (Coding To-Do List berada)
+│   ├── index.css
+│   ├── main.jsx
 │   └── ...
 ├── package.json
-├── tailwind.config.js
 └── README.md
 ```
 
